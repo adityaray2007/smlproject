@@ -1,0 +1,4 @@
+backend/models/**/*.pkl
+*.pkl
+backend/models/**/*.pkl
+*.pkl

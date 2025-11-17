@@ -1,0 +1,42 @@
+{
+  "base": "/Users/adityaray/Desktop/project/backend/models",
+  "data_path": "/Users/adityaray/Desktop/project/dataset/kdd_dataset.csv",
+  "supervised": [
+    "xgboost.pkl",
+    "svm.pkl",
+    "decision_tree.pkl",
+    "knn.pkl",
+    "logistic_regression.pkl",
+    "naive_bayes.pkl",
+    "model_performance.csv",
+    "random_forest.pkl"
+  ],
+  "unsupervised": [
+    "one_class_svm.pkl",
+    "isolation_forest.pkl",
+    "thresholds.pkl",
+    "autoencoder.h5"
+  ],
+  "preprocessing": [
+    "scaler.pkl",
+    "attack_mapping.csv",
+    "encoder.pkl",
+    "attack_frequency.pkl",
+    "selected_features.pkl"
+  ],
+  "shap": [
+    "reconstruction_error_hist.png",
+    "XGBoost_confusion_matrix.png",
+    "RandomForest_confusion_matrix.png",
+    "randomforest_shap_summary.png",
+    "xgboost_shap_summary.png"
+  ],
+  "train_samples": 118813,
+  "test_samples": 29704,
+  "thresholds": {
+    "ae_mse_mean": 0.3173971870405504,
+    "ae_mse_std": 6.891309640399976,
+    "ae_threshold": 20.991326108240482,
+    "iso_threshold": -0.025914826531149404
+  }
+}
